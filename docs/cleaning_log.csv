@@ -1,0 +1,7 @@
+Issue,Column,Action Taken,Result
+Missing Values,"Delivery_person_Ratings, Delivery_person_Age, City, multiple_deliveries, Weather_conditions, Road_traffic_density, Festival",Filled numeric columns with Median and categorical columns with Mode,Missing values handled
+Missing Values,Time_Orderd,Retained missing values,1731 missing values remain
+Duplicates,All columns and ID,No deletion required,0 duplicate rows and 0 duplicate IDs
+Data Types,Order_Date,Converted object to datetime64[ns],Conversion successful
+Outliers,Numerical columns,Assessed using IQR; no records removed,Potential outliers documented
+Categorical Consistency,Categorical columns,Checked unique categories and extra spaces,No formatting corrections required
